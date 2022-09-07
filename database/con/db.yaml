@@ -1,4 +1,6 @@
-- name: Name
-  address: Address
-  start_date: Start Date
-  end_date: End Date
+- name: 中国国际工业博览会
+  address: 国际会展中心（上海）
+  start_date: !!str 2022-09-26
+  end_date: !!str 2022-09-30
+  self:
+  self_image:
