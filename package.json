@@ -1,26 +1,28 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
+  "name": "nuo",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "turbo": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@tailwindcss/typography": "0.5.4",
+    "@tailwindcss/typography": "0.5.8",
     "autoprefixer": "10.4.2",
-    "daisyui": "2.6.4",
+    "daisyui": "2.42.1",
     "js-yaml": "4.1.0",
-    "next": "12.2.5",
+    "next": "13.2.1",
     "postcss": "8.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.1.8"
+    "tailwindcss": "3.2.4"
   },
   "devDependencies": {
     "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "13.2.1",
+    "typescript": "4.8.4"
   }
 }
